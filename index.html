@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="font.css" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <script src="main.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
   <body>
     <!-- header -->
@@ -29,10 +33,56 @@
         </nav>
       </div>
     </header>
-    <!-- icon lucide cdn -->
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <script>
-      lucide.createIcons();
-    </script>
+
+    <!-- footer -->
+    <footer class="bg-black py-14">
+      <div class="container mx-auto text-white flex flex-col space-y-12">
+        <div class="flex justify-between">
+          <div>
+            <img src="/assets/images/logo.png" alt="" />
+          </div>
+          <nav>
+            <ul class="flex justify-between space-x-6">
+              <li>Home</li>
+              <li>Blog</li>
+              <li>About Us</li>
+              <li>Contact Us</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="flex px-16 bg-white/5 py-20 gap-8">
+          <div class="w-1/2">
+            <h2 class="font-bold text-3xl">
+              Subscribe to our news letter to get latest updates and news
+            </h2>
+          </div>
+          <div class="w-1/2">
+            <div class="flex gap-6">
+              <input
+                type="text"
+                placeholder="Enter Your Email"
+                class="border w-3/5 px-6 py-3.5 outline-none border-gray-300"
+              />
+              <button class="bg-yellow-500 w-2/5 text-black font-bold text-lg">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-between">
+          <div>
+            <address class="not-italic">Finstreet 118 2561 Fintown</address>
+            <span>Hello@finsweet.com 020 7993 2905</span>
+          </div>
+          <div class="flex space-x-7 text-[#6D6E76]">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
