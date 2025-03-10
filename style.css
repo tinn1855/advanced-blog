@@ -1,3 +1,38 @@
 body {
   font-family: "Sen";
 }
+
+.container {
+  max-width: 1280px;
+}
+
+.bg-yellow-600 {
+  background-color: #edc14a;
+}
+.bg-yellow-500 {
+  background-color: #ffd050;
+}
+.bg-yellow-50 {
+  background-color: #fbf6ea;
+}
+
+.bg-black {
+  background-color: #232536;
+}
+
+.bg-gray-600 {
+  background-color: #4c4c4c;
+}
+.bg-gray-500 {
+  background-color: #6d6e76;
+}
+.bg-gray-50 {
+  background-color: #f4f4f4;
+}
+
+.bg-purple-500 {
+  background-color: #592ea9;
+}
+.bg-purple-50 {
+  background-color: #f4f0f8;
+}
